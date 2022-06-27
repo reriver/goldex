@@ -13,6 +13,6 @@ func getLocalVar() int {
 	return localGoldexVar
 }
 
-func setLocalVar(i int) int {
+func setLocalVar(i int) {
 	localGoldexVar = i
 }

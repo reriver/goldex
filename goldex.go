@@ -18,5 +18,5 @@ func SetLocalVar(i int) {
 }
 
 func GetVersionOfPack() string {
-	return "git V2"
+	return "GOLDEX git V2"
 }

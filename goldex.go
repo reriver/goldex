@@ -2,7 +2,7 @@ package goldex
 
 var localGoldexVar int
 
-func Return42(i int) int {
+func Return42() int {
 	return 42
 }
 func Add42(i int) int {
@@ -15,4 +15,8 @@ func GetLocalVar() int {
 
 func SetLocalVar(i int) {
 	localGoldexVar = i
+}
+
+func GetVersionOfPack() string {
+	return "local V2"
 }
